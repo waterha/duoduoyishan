@@ -1,5 +1,5 @@
 # 构建阶段
-FROM golang:1.25-alpine AS builder
+FROM golang:1.25.0 AS builder
 
 # 设置工作目录
 WORKDIR /app
@@ -28,8 +28,11 @@ COPY --from=builder /app/duoduoyishan ./
 # 复制配置文件
 COPY config/config.yaml ./config/
 
+# 复制静态文件
+COPY static/ ./static/
+
 # 创建必要的目录
-RUN mkdir -p logs uploads static
+RUN mkdir -p logs uploads
 
 # 暴露端口
 EXPOSE 8080

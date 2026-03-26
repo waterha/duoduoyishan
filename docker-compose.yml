@@ -20,7 +20,7 @@ services:
       MYSQL_USER: duoduoyishan
       MYSQL_PASSWORD: 123456
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - mysql-data:/var/lib/mysql
     restart: unless-stopped
