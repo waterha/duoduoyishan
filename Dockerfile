@@ -1,6 +1,11 @@
 # 构建阶段
 FROM golang:1.25.0 AS builder
 
+# 设置多个 Go 代理（备用）
+ENV GOPROXY=https://goproxy.cn,https://goproxy.io,direct
+ENV GO111MODULE=on
+ENV GOPRIVATE=*.gitlab.com,*.gitee.com
+
 # 设置工作目录
 WORKDIR /app
 
