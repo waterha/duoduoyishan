@@ -99,10 +99,11 @@ func InitRouter(hub *websocket_own.Hub) *gin.Engine {
 				message.PUT("/recall/:id", messageController.RecallMessage)
 			}
 
+		}
+
 		// WebSocket
 		api.GET("/ws", wsController.Connect)
 		api.GET("/ws/online", wsController.GetRoomOnlineCount)
-		}
 	}
 
 	return r
