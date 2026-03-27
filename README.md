@@ -26,7 +26,7 @@
 
 1. 克隆项目
 ```bash
-git clone https://gitee.com/firefishvick/duoduoyishan.git
+git clone https://github.com/waterha/duoduoyishan.git
 cd duoduoyishan
 ```
 
