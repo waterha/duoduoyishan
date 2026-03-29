@@ -532,3 +532,11 @@
 {"client_ip":"::1","latency_time":689200,"level":"info","msg":"HTTP请求","req_method":"GET","req_uri":"/static/css/style.css","status_code":200,"time":"2026-03-26T16:50:18+08:00"}
 {"client_ip":"::1","latency_time":1598200,"level":"info","msg":"HTTP请求","req_method":"GET","req_uri":"/static/js/app.js","status_code":200,"time":"2026-03-26T16:50:18+08:00"}
 {"client_ip":"::1","latency_time":0,"level":"info","msg":"HTTP请求","req_method":"GET","req_uri":"/api/user/info","status_code":401,"time":"2026-03-26T16:50:19+08:00"}
+{"level":"fatal","msg":"初始化MySQL失败:连接数据库失败: dial tcp: lookup mysql: no such host","time":"2026-03-29T18:07:58+08:00"}
+{"level":"fatal","msg":"初始化MySQL失败:连接数据库失败: dial tcp: lookup mysql: no such host","time":"2026-03-29T18:08:27+08:00"}
+{"level":"fatal","msg":"初始化MySQL失败:连接数据库失败: dial tcp: lookup mysql: no such host","time":"2026-03-29T18:23:09+08:00"}
+{"level":"fatal","msg":"初始化MySQL失败:连接数据库失败: Error 1045 (28000): Access denied for user 'duoduoyishan'@'localhost' (using password: YES)","time":"2026-03-29T18:24:18+08:00"}
+{"level":"fatal","msg":"初始化MySQL失败:连接数据库失败: Error 1045 (28000): Access denied for user 'duoduoyishan'@'localhost' (using password: YES)","time":"2026-03-29T18:25:19+08:00"}
+{"level":"info","msg":"服务器启动在端口 8080","time":"2026-03-29T18:26:17+08:00"}
+{"client_ip":"::1","latency_time":64947200,"level":"info","msg":"HTTP请求","req_method":"GET","req_uri":"/","status_code":200,"time":"2026-03-29T18:26:23+08:00"}
+{"client_ip":"::1","latency_time":0,"level":"info","msg":"HTTP请求","req_method":"GET","req_uri":"/api/user/info","status_code":401,"time":"2026-03-29T18:26:23+08:00"}
